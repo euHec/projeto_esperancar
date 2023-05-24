@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+@font-face {
+  font-family: 'Gulfs Display';
+  src: local('Gulfs Display Normal'), local('Gulfs-Display-Normal'),
+      url('../fontes/GulfsDisplay-Normal.ttf') format('woff2'),
+      url('../fontes/GulfsDisplay-Normal.woff') format('woff'),
+      url('../fontes/GulfsDisplay-Normal.woff2') format('truetype');
+  font-style: normal;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.fontGulfs {
+  font-family: Gulfs Display;
+  font-size: 50px;
+}
+
+.fontText {
+  font-family: 'Nunito', sans-serif;
+}

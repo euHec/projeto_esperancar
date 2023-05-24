@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperançar</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+  </head>
+  <body class="bg-yellow-500 fontText">
+    <header class="fixed w-full h-20 bg-yellow-400 text-indigo-950 border-1 border-b-black">
+      <svg id="icon-header" class="fixed top-5 left-5 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" id="icon" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      <div class="h-full flex justify-around">
+        <picture class="flex items-center w-96 sm:w-1/4">
+          <img src="./src/Images/logo.svg" alt="logo" class="w-48 m-auto">
+        </picture>
+        <nav class="hidden sm: text-end w-4/6 sm:flex justify-evenly items-center px-4">
+          <a class="w-1/4 text-center font-extrabold" href="#container1">O que somos?</a>
+          <a class="w-1/4 text-center font-extrabold" href="#container2">Objetivo</a>
+          <a class="w-1/4 text-center font-extrabold" href="#container3">Pilares</a>
+          <a class="w-1/4 text-center font-extrabold" href="#container4">Informações</a>
+          <a class="w-1/4 text-center font-extrabold" href="#container5">Inscrições</a>
+        </nav>
+        <nav id="navigator" class="gap-3 z-20 inline-flex w-full bg-yellow-400 items-center justify-center flex-col absolute top-20 hidden">
+          <a id="nav-opts" class="w-full text-center font-extrabold py-2" href="#container1">O que somos?</a>
+          <a id="nav-opts" class="w-full text-center font-extrabold py-2" href="#container2">Objetivo</a>
+          <a id="nav-opts" class="w-full text-center font-extrabold py-2" href="#container3">Pilares</a>
+          <a id="nav-opts" class="w-full text-center font-extrabold py-2" href="#container4">Informações</a>
+          <a id="nav-opts" class="w-full text-center font-extrabold py-2" href="#container5">Inscrições</a>
+        </nav>
+      </div>
+    </header>
+    <main class="pt-20">
+      <section class="w-full h-80">
+        <img src="./src/Images/Esperançar.svg" alt="banner" class="w-full h-full object-cover object-right-bottom sm:object-bottom">
+      </section>
+
+      <section id="container1" class="h-500 w-full bg-indigo-950">
+        <h1 class="uppercase m-auto py-5 text-center fontGulfs text-yellow-500">O que somos?</h1>
+        <div class="flex-col sm:flex-row flex w-full items-center justify-center py-5">
+            <h3 class="order-2 sm:w-2/5 w-full h-1/2 p-3 text-yellow-500 text-justify shadow-md shadow-indigo-950 rounded-lg text-lg sm:pr-10">
+              Não é mais um retiro. Não pode ser. São três dias pra lembrar que o Novo é o mesmo Deus ainda e sempre. São três dias pra compreender que meu chamado não acabou e que a ordem do IDE ecoa como CONTINUA. Jesus criou o mundo em seis dias e no sétimo descansou. O Esperançar é o seu sétimo dia.  O Senhor busca adoradores que O adorem em Espírito e em Verdade, em dia e noite, na Igreja e na Rua, na dor e na glória, no silêncio e no grito, em grupos de jovens e fora deles. Fazer da vida ordinária o extraordinário de Deus não é fácil. Mas, é essa a nossa intenção.
+            </h3>
+            <img class="order-1 sm:order-2 w-1/2 sm:h-1/4 h-1/2 rounded-2xl shadow-lg shadow-black" src="./images/Maria.jpeg" alt="Maria">
+        </div>
+      </section>
+
+      <section id="container2" class="h:500 sm:h-96 py-4 p-2 w-full">
+        <h1 class="text-4xl sm:text-6xl uppercase m-auto my-5 text-center fontGulfs text-indigo-950">Nossa missão ...</h1>
+        <div class="gap-y-6 sm:gap-x-3 flex flex-col sm:flex-row w-full justify-evenly">
+          <article class="w-full h-28 sm:w-64 sm:h-52 bg-indigo-950 p-3 text-yellow-50 text-justify shadow-md shadow-indigo-950 rounded-lg text-base">
+            Acolher os cristãos convencidos - mas, muitas vezes não verdadeiramente convertidos ao Evangelho.
+          </article>
+          <article class="w-full h-28 sm:w-64 sm:h-52 bg-indigo-950 p-3 text-yellow-50 text-justify shadow-md shadow-indigo-950 rounded-lg text-base">
+            Aprofundar o conhecimento acerca da Verdade, motivando o estudo bíbarticleco, a compreensão da teologia da nossa Igreja e a prática verdadeira do envio missionário.
+          </article>
+          <article class="w-full h-28 sm:w-64 sm:h-52 bg-indigo-950 p-3 text-yellow-50 text-justify shadow-md shadow-indigo-950 rounded-lg text-base">
+            Aperfeiçoar o amor e a devoção Mariana, a fim de com e como Ela, desenvolver uma espera confiante e ativa às Promessas de Cristo.
+          </article>
+        </div>
+      </section>
+
+      <section id="container3" class="gap-3 w-full h-72 sm:h-80 flex flex-col bg-indigo-950 text-white">
+        <h1 class="text-4xl sm:text-6xl w-full text-center text-yellow-500 my-4 sm:mt-10 fontGulfs">Pilares</h1>
+        <div class="w-full h-32 flex flex-col sm:flex-row items-center justify-around px-5">
+          <div class="py-5 w-full text-center flex items-center justify-center">
+            <p id="informationOne" class="font-extrabold my-auto slide text-2xl">Diagnóstico de qual é essa dor. De onde que o calo aperta. Qual a raiz do problema?</p>
+            <p id="informationTwo" class="font-extrabold my-auto slide text-2xl hidden">Antes da Ressurreição, é preciso morrer. Como aguardamos os três dias até a pedra rolar?</p>
+            <p id="informationTree" class="font-extrabold my-auto slide text-2xl hidden">O Amor precisa estar à serviço do tempo. Fidelidade é aliança, compromisso, voto de permanência.</p>
+            <p id="informationFour" class="font-extrabold my-auto slide text-2xl hidden">Ato de ousadia! Esperar com e como Maria o cumprimento daquilo que Deus nos deu visão.</p>
+          </div>
+          <div class="gap-2 w-24 h-32 flex sm:flex-col text-center text-white items-center justify-center">
+            <h3 class="bg-yellow-500 p-2 rounded-lg font-extrabold" id="optionOne">Sofrimento</h3>
+            <h3 id="optionTwo">Paciência</h3>
+            <h3 id="optionTree">Fidelidade</h3>
+            <h3 id="optionFour">Esperança</h3>
+          </div>
+        </div>
+      </section>
+      
+      <section id="container4" class="w-full h-500 flex flex-col items-center justify-center py-4">
+        <h1 class="text-4xl sm:text-6xl uppercase m-auto py-5 text-center fontGulfs text-indigo-950">Mais Informações</h1>
+
+        <article id="article" class="w-3/4 h-10 rounded-lg bg-indigo-950 text-center shadow-md shadow-indigo-950 my-3">
+          <div class="flex justify-evenly items-center">
+            <h3 class="text-left pl-4 pt-2 text-lg text-yellow-50 font-extrabold w-full">Quando</h3>
+            <img id="seta" src="./images/seta.png" alt="seta" class="w-5 h-5 mr-3 rotate-90">
+          </div>
+          <p id="questions" class="text-left pl-4 text-lg w-full text-yellow-50 font-medium hidden">26, 27 e 28 de maio</p>
+        </article>
+
+        <article id="article" class="w-3/4 h-10 rounded-lg bg-indigo-950 text-center shadow-md shadow-indigo-950 my-3">
+          <div class="flex justify-evenly items-center">
+            <h3 class="text-left pl-4 pt-2 text-lg text-yellow-50 font-extrabold w-full">Local</h3>
+            <img id="seta" src="./images/seta.png" alt="seta" class="w-5 h-5 mr-3 rotate-90">
+          </div>
+          <p id="questions" class="text-left pl-4 text-lg w-full text-yellow-50 font-medium hidden">Fundação Senhor dos Passos</p>
+        </article>
+
+        <article id="article" class="w-3/4 h-10 rounded-lg bg-indigo-950 text-center shadow-md shadow-indigo-950 my-3">
+          <div class="flex justify-evenly items-center">
+            <h3 class="text-left pl-4 pt-2 text-lg text-yellow-50 font-extrabold w-full">Investimento</h3>
+            <img id="seta" src="./images/seta.png" alt="seta" class="w-5 h-5 mr-3 rotate-90">
+          </div>
+          <p id="questions" class="text-left pl-4 text-lg w-full text-yellow-50 font-medium hidden">R$ 120,00</p>
+        </article>
+        
+      </section>
+
+      <section id="container5" class="w-full h-500 bg-indigo-950 text-yellow-500 py-10">
+        <h1 class="text-4xl sm:text-8xl text-center text-yellow-500 fontGulfs">Inscrições</h1>
+        <form method="post" class="flex flex-col">
+          <div class="flex flex-col sm:flex-row justify-center w-full">
+            <div class="w-full sm:w-2/5 px-3 sm:px-0 sm:p-3 flex flex-col items-center">
+              <label class="w-4/5 font-extrabold" for="firstName">Nome:</label>
+              <input type="text" name="firstName" class="p-1 rounded-lg w-4/5 pl-1" id="firstName">
+              
+              <label class="w-4/5 font-extrabold" for="lastName">Sobrenome:</label>
+              <input type="text" name="lastName" class="p-1 rounded-lg w-4/5 pl-1" id="lastName">
+              
+              <label class="w-4/5 font-extrabold" for="email">Email:</label>
+              <input  type="email" name="email" class="p-1 rounded-lg w-4/5 pl-1" id="email">
+              
+              <label class="w-4/5 font-extrabold" for="tel">Telefone:</label>
+              <input type="tel" name="tel" class="p-1 rounded-lg w-4/5 pl-1" id="tel" maxlength="11">
+    
+              <label class="w-4/5 font-extrabold" for="date">Data de nascimento:</label>
+              <input type="date" name="date" class="p-1 rounded-lg w-4/5 pl-1" id="date">
+              
+              <label class="w-4/5 font-extrabold" for="name">Sexo:</label>
+                <select  name="sexo" class="p-1 rounded-lg w-4/5 pl-1" id="sexo">
+                  <option value="null" selected></option>
+                  <option value="Masculino">Masculino</option>
+                  <option value="Feminino">Feminino</option>
+                </select>
+            </div>
+            <div class="w-full sm:w-2/5 px-3 sm:px-0 sm:p-3 flex flex-col items-center">
+              <label class="w-4/5 font-extrabold" for="cep">CEP:</label>
+              <input type="text" name="cep" maxlength="8" id="cep" class="p-1 rounded-lg w-4/5 pl-1">
+    
+              <label class="w-4/5 font-extrabold" for="street">Rua:</label>
+              <input type="text" name="street" id="street" class="p-1 rounded-lg w-4/5 pl-1">
+    
+              <label class="w-4/5 font-extrabold" for="district">Bairro:</label>
+              <input type="text" name="bairro" id="district" class="p-1 rounded-lg w-4/5 pl-1">
+              
+              <label class="w-4/5 font-extrabold" for="city">Cidade:</label>
+              <input type="text" name="cidade" id="city" class="p-1 rounded-lg w-4/5 pl-1">
+              
+              <label class="w-4/5 font-extrabold" for="state">Estado:</label>
+              <input type="text" name="estado" id="state" class="p-1 rounded-lg w-4/5 pl-1">
+              
+              <label class="w-4/5 font-extrabold" for="number">Número:</label>
+              <input type="text" name="number" id="number" class="p-1 rounded-lg w-4/5 pl-1">
+            </div>
+          </div>
+          <div class="my-3 text-center">
+            <label for="agreed" class="agreed font-extrabold">
+              <input type="checkbox" name="agreed" id="agreed" class="form-check-input"> Ciente que os dados serão utilizados exclusivamente para a inscrição do encontro
+            </label>
+          </div>
+          <div class="text-center my-3">
+            <button type="submit" id="button" disabled class="w-1/4 h-10 disabled:bg-slate-700 bg-yellow-500 text-yellow-50 rounded-lg">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="w-full h-36 text-white flex flex-col ">
+      <div class="flex w-full h-3/4">
+        <div class="w-2/4 h-full">
+          <picture class="w-3/4 h-full">
+            <img src="./src/Images/logo.svg" alt="logo" class="w-48 h-full m-auto">
+          </picture>
+        </div>
+        <div class="w-2/4 flex flex-col align-middle items-center text-indigo-950">
+          <label class="flex w-full h-1/2 justify-center items-end pb-2" for="whatsapp">Whatsapp
+            <a href="http://wa.me/5575992060414" target="_blank" class="pl-2" id="whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#3d167b" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </a>
+          </label>
+          <label class="flex w-full h-1/2 justify-center items-start pt-2" for="instagram">Instagram
+            <a href="http://www.instagram.com/movimento_esperancar/" target="_blank" class="pl-2" id="instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#3d167b" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+            </a>
+          </label>
+        </div>
+      </div>
+      <div class="w-full h-1/4 text-center text-indigo-950 font-extrabold">
+        <a href="https://github.com/euHec" target="_blank">© A website developed by euHec. All rights reserved.</a>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./src/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
